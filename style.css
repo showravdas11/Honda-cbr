@@ -45,7 +45,7 @@ body{
 
 .fetured-img img{
     width: 288px;
-    filter: brightness(0.5) grayscale(100);
+    filter:  grayscale(100%);
         transition: 0.3s ease-in-out;
 }
 .fetured-img:hover img{
@@ -59,3 +59,60 @@ body{
      font-weight: 600;
      margin-top: 100px;
  }
+
+ .card-title{
+     font-size: 28px;
+     font-weight: 600;
+ }
+
+ .card-text{
+     color: #6C6C6C;
+ }
+
+ .read-btn{
+     padding: 8px 20px;
+     border-radius: 5px;
+     
+     color: #E76F51;
+     border: 1px solid #E76F51;
+     transition: 0.5s;
+     background: transparent;
+ }
+
+ .read-btn:hover{
+    background-color: #E76F51;
+    color: white;
+ }
+
+ /* clint-part */
+ .client-text{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+ }
+
+ .client-text span{
+     color: #E76F51;
+ }
+
+ .imgBox img{
+     width: 50%;
+     border-radius: 50%;
+     
+ }
+
+ .review h4{
+     font-size: 14px;
+     color: #23A6F0;
+ }
+
+ .icon{
+     color: #E77C40;
+ }
+
+ .box{
+     border: 2px solid rgb(238, 237, 237);
+ }
+
+
+
