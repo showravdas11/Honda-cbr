@@ -4,6 +4,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.login-btn{
+    padding: 8px 20px;
+     border-radius: 5px;
+     color: #ffffff;
+     background-color: #E76F51;
+     border: none;
+     
+     
+}
+
 .intro-part{
     background-color: #264653;
     width: 100%;
