@@ -58,8 +58,14 @@ body{
     filter:  grayscale(100%);
         transition: 0.3s ease-in-out;
 }
-.fetured-img:hover img{
-    filter: brightness(1) grayscale(0);
+
+.feture-img img{
+    width: 288px;
+}
+
+
+.feture-img img{
+    width: 288px;
 }
 
  /* latest news  */
@@ -76,7 +82,7 @@ body{
  }
 
  .card-text{
-     color: #6C6C6C;
+     color: #5c5c5c;
  }
 
  .read-btn{
