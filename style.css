@@ -161,6 +161,73 @@ body{
       color: #E76F51;
   }
 
+  .suzuki-text {
+      margin-top: 120px;
+  }
+
+  .suzuki-text p{
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .suzuki-text h2{
+      font-size: 50px;
+      font-weight: bold;
+  }
+
+  .suzuki-text span{
+      font-size: 60px;
+      font-weight: bold;
+      color: #E76F51;
+  }
+
+  .bike{
+      position: relative;
+      overflow: hidden;
+  }
+
+  .bike::before{
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 220%;
+      background: rgba(235, 53, 131, 0.7);
+      top: -50%;
+      left: -100%;
+      z-index: 1;
+      transform: rotate(25deg);
+      transform-origin: center top 0;
+      transition: 0.5;
+    }
+
+    .bike:hover::before{
+        left: 10%;
+    }
+
+    .bike img{
+        width: 100%;
+
+    }
+
+    .bike-text{
+        width: 100%;
+        padding: 0, 20px;
+        position: absolute;
+        top: 100%;
+        color: #fff;
+        left: 0;
+        z-index: 2;
+        transition: 1.1s;
+    }
+
+    .bike:hover .bike-text{
+        top: 80px;
+    }
+
+    footer{
+        background-color: black;
+
+    }
  
 
 
